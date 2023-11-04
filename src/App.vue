@@ -5,12 +5,7 @@
 </template>
 
 <style lang="scss">
-@import './style.scss';
-
 .test {
-
-  background-color: red;
-
   &-child {
     color: rebeccapurple;
   }
