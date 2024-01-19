@@ -7,7 +7,8 @@
     "serve": "vite",
     "lint": "eslint ./src",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install"
   },
   "dependencies": {
     "firebase": "^10.5.2",
@@ -22,10 +23,5 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vue-tsc": "^1.8.5"
-  },
-  "lint-staged": {
-    "*": [
-      "npm run lint"
-    ]
   }
 }
