@@ -7,3 +7,4 @@ if [ "$branch" = "release" ] || [ "$branch" = "test" ] || [ "$branch" = "develop
   npm run lint
 fi
   npm lint staged
+npm run lint
