@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+#!/bin/sh
+branch=$(git rev-parse --abbrev-ref HEAD)
+if [ "$branch" = "release" ] || [ "$branch" = "test" ] || [ "$branch" = "develop" ]; then
+  npm run lint
+fi
