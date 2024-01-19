@@ -6,5 +6,4 @@ branch=$(git rev-parse --abbrev-ref HEAD)
 if [ "$branch" = "release" ] || [ "$branch" = "test" ] || [ "$branch" = "develop" ]; then
   npm run lint
 fi
-  npm run lint
-npm lint
+  npm lint staged
