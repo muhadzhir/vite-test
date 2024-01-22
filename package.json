@@ -6,7 +6,6 @@
   "scripts": {
     "serve": "vite",
     "lint": "eslint src",
-    "lint-staged": "lint-staged",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "prepare": "husky install"
@@ -33,6 +32,9 @@
     "sass-loader": "^13.3.2",
     "typescript": "*",
     "vite": "^4.4.5",
-    "vue-tsc": "^1.8.5"
+    "vue-tsc": "^1.8.5",
+  },
+  "lint-staged": {
+    "**/*": "eslint src"
   }
 }
