@@ -5,7 +5,7 @@
 </template>
 <script lang="ts" setup>
 const test = 'test'
-const test2 = 'test3'
+const test2 = 'test4'
 </script>
 <style lang="scss">
 .test {
